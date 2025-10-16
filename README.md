@@ -1,5 +1,8 @@
 App Emergencias Chile.
 
+API 31 Android 13.0 (Tiramisu).
+Credenciales: correo: usuario@st.cl | clave: 123456
+
 La app fue destinada a enfrentar emergencias en Chile, dando acceso a distintas funcionalidades como
 lo son el acceso a información de redes oficiales 🌐, llamar a servicios de emergencia desde la app con
 facilidad y abrir el GPS para acceder a la ubicación 🗺️. La app cuenta con una guía que explica con
