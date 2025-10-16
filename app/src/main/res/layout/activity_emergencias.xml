@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PerfilActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:background="@drawable/bg_gradiente">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/carta_redondeada_login"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="90dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Servicios de Emergencia Chile."
+                    android:textSize="24dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <Button
+                    android:id="@+id/btn_carabineros"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Llamar a Carabineros."/>
+
+                <Button
+                    android:id="@+id/btn_bomberos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Llamar a Bomberos."/>
+
+                <Button
+                    android:id="@+id/btn_ambulancia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Llamar Ambulancia."/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="¿Necesitas otro servicio de emergencia?"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="10dp"
+                    android:textAlignment="center"/>
+
+                <!-- 2 -->
+                <Button
+                    android:id="@+id/btnContactos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Abrir Contactos" />
+
+            </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
